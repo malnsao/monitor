@@ -32,3 +32,6 @@ cnpm i webpack webpack-cli html-webpack-plugin user-agent webpack-dev-server -D
 思路
 获取从浏览器输入 url 到页面渲染各个时间段
 前一个页面卸载耗时、重定向、缓存、DNS、TCP、request、response、处理、加载
+
+搭建监控服务器
+https://cdn.nlark.com/yuque/0/2022/png/433718/1651318624562-132ce7d4-12d9-4932-8fa2-f630e20bb773.png
