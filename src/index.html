@@ -56,8 +56,17 @@
         };
         xhr.send("name=1");
       }
-      let content = document.getElementsByClassName("content")[0];
-      content.innerHTML = "<span>@</span>".repeat(10000);
+      //   let content = document.getElementsByClassName("content")[0];
+      //   content.innerHTML = "<span>@</span>".repeat(10000);
+
+      setTimeout(() => {
+        let content = document.getElementsByClassName("content")[0];
+
+        let h1 = document.createElement("h1");
+        h1.innerHTML = "有意义";
+        h1.setAttribute("elementtiming", "meaningful");
+        content.appendChild(h1);
+      }, 2000);
     </script>
 
     <!-- <script src="/a.js"></script> -->

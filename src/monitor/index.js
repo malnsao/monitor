@@ -6,3 +6,6 @@ injectXHR()
 
 import { blankScreen } from './lib/blankScreen'
 blankScreen()
+
+import { timing } from './lib/timing'
+timing()
